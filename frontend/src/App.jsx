@@ -23,7 +23,7 @@ const App = () => {
 
     setTimeout(() => {
       setShowDiv(true);
-    }, 80000);
+    }, 40000);
 
     return () => clearInterval(timer);
   }, []);
