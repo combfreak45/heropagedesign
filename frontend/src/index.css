@@ -1,0 +1,23 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.last-div {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1; 
+        transform: translateY(0);
+    }
+}
